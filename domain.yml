@@ -1,0 +1,44 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - talking_shit
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you dude?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you dude?"
+
+  utter_happy:
+  - text: "Great, fine!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_shit:
+  - text: "you are a sucker"
+
+  utter_shit_extreme:
+  - text: "fuckyou son of a bitch, you deserve all of this motherfucker"
+
+  utter_goodbye_shit:
+  - text: "just leave you sucker!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
