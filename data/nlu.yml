@@ -30,7 +30,13 @@ nlu:
     - nonsense
     - idiot 
     - stupid
-    
+
+- intent: types_of_crops
+  examples: |
+    - food crops
+    - cash crops
+    - plantination crops
+    - vegitable crops
 
 - intent: goodbye
   examples: |
@@ -45,6 +51,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - thankyou
 
 - intent: affirm
   examples: |
@@ -54,6 +61,7 @@ nlu:
     - of course
     - that sounds good
     - correct
+    
 
 - intent: deny
   examples: |

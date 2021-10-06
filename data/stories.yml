@@ -9,6 +9,15 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
+- story: crops path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: types_of_crops
+  - action: utter_types_of_crops
+  - intent: goodbye
+  - action: utter_goodbye 
+
 - story: sad path 1
   steps:
   - intent: greet

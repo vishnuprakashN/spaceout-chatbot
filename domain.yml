@@ -9,10 +9,14 @@ intents:
   - mood_unhappy
   - bot_challenge
   - talking_shit
+  - types_of_crops
 
 responses:
   utter_greet:
   - text: "Hey! How are you dude?"
+
+  utter_types_of_crops:
+  - text: "it is a branch of a agriculture crops"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
