@@ -17,26 +17,66 @@ nlu:
     - goodevening
     - good afternoon
 
-- intent: talking_shit
+- intent: yellow_leaves
   examples: |
-    - fuckyou
-    - bitch
-    - sucker
-    - dick
-    - son of bitch
-    - motherfucker
-    - shit
-    - you suck
-    - nonsense
-    - idiot 
-    - stupid
+    - color change to yellow
+    - appear yellow in middle of leaves
+    - crop color yellow
+    - yellowish green leaves that are shorter
+    - leaves appearing yellow to yellow-brown and twisted into
 
-- intent: types_of_crops
+- intent: wilting
   examples: |
-    - food crops
-    - cash crops
-    - plantination crops
-    - vegitable crops
+    - wilting
+    - wilt
+    - flop
+
+- intent: dark_green
+  examples: |
+    - green leaves with darker than normal color
+
+- intent: dark_brown
+  examples: |
+    -  dark brown starting from leaf tips or edges
+    -  later become light brown to yellowish gray.
+
+- intent: die
+  examples: |
+    - Entire leaves may become brown and die
+
+- intent: leaf_scald
+  examples: |
+    - light brown halos in mature leaves
+    - light brown spot
+    - small circle brown dot
+
+- intent: problem
+  examples: |
+    - I have problem
+    - what is your propose?
+    - what are you ?
+    - what can you do for me?
+
+- intent: bacteral_blight
+  examples: |
+   - bacterial blight
+ 
+
+
+- intent: solution
+  examples: |
+    - how do i treat that
+    - how do i treat this disease
+    - how do i treatment that
+    - how do i treatment this disease
+    - treatment
+    - solution
+    - solve
+
+- intent: prevent
+  examples: |
+    - how to prevent
+    - how to avoid
 
 - intent: goodbye
   examples: |
@@ -51,7 +91,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-    - thankyou
 
 - intent: affirm
   examples: |
@@ -61,7 +100,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-    
 
 - intent: deny
   examples: |

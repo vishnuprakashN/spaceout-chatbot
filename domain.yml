@@ -8,40 +8,100 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - talking_shit
-  - types_of_crops
+  - yellow_leaves
+  - wilting
+  - solution
+  - prevent
+  - bacteral_blight
+  - problem
+  - dark_green
+  - dark_brown
+  - die
+  - leaf_scald
+
+
 
 responses:
   utter_greet:
-  - text: "Hey! How are you dude?"
+  - text: "Hey! How can i help you"
 
-  utter_types_of_crops:
-  - text: "it is a branch of a agriculture crops"
+  utter_bacteral_blight:
+  - text: "it's symptoms of bacteral blight disease"
+
+  utter_bacteral_blight_e1:
+  - text: "is there any wilting leaves in your crop?"
+
+  utter_bacteral_blight_e2:
+  - text: "is there any yellowing leaves in your crop?"
+
+  utter_all_right:
+  - text: "no worries, everything all right "
+
+  utter_bacteral_blight_solution:
+  - text: "You should to use a combination of copper and mancozeb-containing fungicides Apply fungicides two to three times at 7 to 10 day"
+
+  utter_bacteral_blight_prevent:
+  - text: " Use balanced amount of plant nutrients"
+  - text: "Ensure good drainage pf fields"
+  - text: "Remove weed hosts and plow under rice stubble"
+
+
+  utter_Rice_ragged_stunt:
+  - text: "it's symptoms of rice ragged stunt"
+
+  utter_Rice_ragged_stunt_solution:
+  - text: "Plow infected stubbles under the field after harvest to reduce the virus source."
+
+  utter_Rice_ragged_stunt_prevent:
+  - text: "Avoid close planting and provide 30cm rogue spacing at every 2.5 to3.0m to reduce the past incidence"
+
+  utter_bacterial_leaf_streak:
+  - text: "it's symptoms of bacterial leaf streak "
+
+  utter_bacterial_leaf_streak_solution:
+  - text: "Treat seeds with hot water. "
+  - text: "Keep fields clean—remove weed hosts and plow under rice stubble, straw, rice ratoons, and volunteer seedlings, which may be infected by the bacteria."
+
+  utter_bacterial_leaf_streak_prevent:
+  - text: " Ensure good drainage of fields (in conventionally flooded crops) and nurseries."
+  - text: "Dry the field during the fallow period to kill the bacteria in the soil and in plant residues."
+
+  utter_Leaf_Scald_solution:
+  - text: "you should to use Chemicals such as benomyl, carbendazim, quitozene, and thiophanate-methyl to treat the seeds to eliminate."
+
+  utter_Leaf_Scald:
+  - text: "it's symptoms of leaf scald"
+
+  utter_leaf_scald_prevent:
+  - text: "Avoid high use of fertilizer."
+
+
+  utter_problem:
+  - text: "I am here to help you to save your crops let me known is there any problem in your crops"
+
+
+  utter_ask_another_sym:
+  - text: "Do you have another symptoms?"
+
+
+  utter_want_solution:
+  - text: "Do you want solution this disease?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you dude?"
+  - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, fine!"
+  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-  utter_shit:
-  - text: "you are a sucker"
-
-  utter_shit_extreme:
-  - text: "fuckyou son of a bitch, you deserve all of this motherfucker"
-
-  utter_goodbye_shit:
-  - text: "just leave you sucker!"
 
 session_config:
   session_expiration_time: 60
