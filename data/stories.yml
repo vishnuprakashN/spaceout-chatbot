@@ -271,6 +271,8 @@ stories:
   - intent: yellow_leaves
   - action: utter_ask_another_sym
   - intent: deny
+  - action: utter_bacteral_blight_e1
+  - intent: affirm
   - action: utter_want_solution
   - intent: affirm
   - action: utter_bacteral_blight_solution
@@ -285,6 +287,8 @@ stories:
   - intent: wilting
   - action: utter_ask_another_sym
   - intent: deny
+  - action: utter_bacteral_blight_e1
+  - intent: affirm
   - action: utter_want_solution
   - intent: affirm
   - action: utter_bacteral_blight_solution
@@ -301,10 +305,80 @@ stories:
   - intent: wilting
   - action: utter_ask_another_sym
   - intent: deny
+  - action: utter_bacteral_blight_e1
+  - intent: affirm
   - action: utter_want_solution
   - intent: affirm
   - action: utter_bacteral_blight_solution
   - intent: prevent
   - action: utter_bacteral_blight_prevent
+  - intent: goodbye
+  - action: utter_goodbye
+- story: leaf_scald_no
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: dark_brown
+  - action: utter_ask_another_sym
+  - intent: deny
+  - action: utter_leaf_scald_e1
+  - intent: affirm
+  - action: utter_want_solution
+  - intent: affirm
+  - action: utter_Leaf_Scald_solution
+  - intent: prevent
+  - action: utter_leaf_scald_prevent
+  - intent: goodbye
+  - action: utter_goodbye
+- story: leaf_scald_no_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem
+  - action: utter_problem
+  - intent: dark_brown
+  - action: utter_ask_another_sym
+  - intent: deny
+  - action: utter_leaf_scald_e1
+  - intent: affirm
+  - action: utter_want_solution
+  - intent: affirm
+  - action: utter_Leaf_Scald_solution
+  - intent: prevent
+  - action: utter_leaf_scald_prevent
+  - intent: goodbye
+  - action: utter_goodbye
+- story: leaf_scald_no_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: leaf_scald
+  - action: utter_ask_another_sym
+  - intent: deny
+  - action: utter_leaf_scald_e1
+  - intent: affirm
+  - action: utter_want_solution
+  - intent: affirm
+  - action: utter_Leaf_Scald_solution
+  - intent: prevent
+  - action: utter_leaf_scald_prevent
+  - intent: goodbye
+  - action: utter_goodbye
+- story: leaf_scald_no_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: problem
+  - action: utter_problem
+  - intent: leaf_scald
+  - action: utter_ask_another_sym
+  - intent: deny
+  - action: utter_leaf_scald_e1
+  - intent: affirm
+  - action: utter_want_solution
+  - intent: affirm
+  - action: utter_Leaf_Scald_solution
+  - intent: prevent
+  - action: utter_leaf_scald_prevent
   - intent: goodbye
   - action: utter_goodbye

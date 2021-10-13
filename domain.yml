@@ -46,8 +46,6 @@ responses:
   - text: Hey! How can i help you
   utter_bacteral_blight:
   - text: it's symptoms of bacteral blight disease
-  utter_bacteral_blight_e2:
-  - text: is there any yellowing leaves in your crop?
   utter_all_right:
   - text: 'no worries, everything all right '
   utter_bacteral_blight_solution:
@@ -96,6 +94,15 @@ responses:
   utter_bacteral_blight_e1:
   - image: https://www.krishisewa.com/images/articles/2014/aug/drice1.jpg
     text: does it look like this?
+  utter_bacteral_leaf_streak_e1:
+  - image: http://www.knowledgebank.irri.org/images/stories/bacterial-leaf-streak.jpg
+    text: it look like this
+  utter_leaf_scald_e1:
+  - image: https://www.lsuagcenter.com/~/media/system/d/7/c/3/d7c37b4c706635ce423066827c0b872b/leafscald3.jpg?h=683&la=en&w=996
+    text: it's look like this
+  utter_rice_ragged_stunt_e1:
+  - image: http://www.knowledgebank.irri.org/images/stories/ragged-stunt-1.jpg
+    text: it's look like this
 actions: []
 forms: {}
 e2e_actions: []
