@@ -27,6 +27,7 @@ nlu:
     - wilting
     - wilt
     - flop
+    - it has wrinkle in them
 - intent: dark_green
   examples: |
     - green leaves with darker than normal color

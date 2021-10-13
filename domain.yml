@@ -94,8 +94,8 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_bacteral_blight_e1:
-  - image: https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png
-    text: It look like this
+  - image: https://www.krishisewa.com/images/articles/2014/aug/drice1.jpg
+    text: does it look like this?
 actions: []
 forms: {}
 e2e_actions: []
