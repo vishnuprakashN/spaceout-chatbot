@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: yellow_leaves
   examples: |
     - color change to yellow
@@ -24,45 +22,35 @@ nlu:
     - crop color yellow
     - yellowish green leaves that are shorter
     - leaves appearing yellow to yellow-brown and twisted into
-
 - intent: wilting
   examples: |
     - wilting
     - wilt
     - flop
-
 - intent: dark_green
   examples: |
     - green leaves with darker than normal color
-
 - intent: dark_brown
   examples: |
-    -  dark brown starting from leaf tips or edges
-    -  later become light brown to yellowish gray.
-
+    - dark brown starting from leaf tips or edges
+    - later become light brown to yellowish gray.
 - intent: die
   examples: |
     - Entire leaves may become brown and die
-
 - intent: leaf_scald
   examples: |
     - light brown halos in mature leaves
     - light brown spot
     - small circle brown dot
-
 - intent: problem
   examples: |
     - I have problem
     - what is your propose?
     - what are you ?
     - what can you do for me?
-
 - intent: bacteral_blight
   examples: |
-   - bacterial blight
- 
-
-
+    - bacterial blight
 - intent: solution
   examples: |
     - how do i treat that
@@ -72,12 +60,11 @@ nlu:
     - treatment
     - solution
     - solve
-
+    - how should i get rid of it?
 - intent: prevent
   examples: |
     - how to prevent
     - how to avoid
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -91,7 +78,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -100,7 +86,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -110,7 +95,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -127,7 +111,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -144,7 +127,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
