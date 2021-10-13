@@ -94,7 +94,7 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_bacteral_blight_e1:
-  - image: https://www.google.com/search?q=bacterial+blight+of+rice&tbm=isch&ved=2ahUKEwj464HNqcXzAhWOALcAHYyqDccQ2-cCegQIABAC&oq=bacterial+blight+&gs_lcp=ChJtb2JpbGUtZ3dzLXdpei1pbWcQARgAMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABFDsCVjsCWCIEWgAcAB4AIAB4wGIAYsDkgEFMC4xLjGYAQCgAQHAAQE&sclient=mobile-gws-wiz-img&ei=HLxlYfjtOI6B3LUPjNW2uAw&bih=743&biw=393&client=ms-android-vivo-rvo2&prmd=insxv#imgrc=kJqQUsgx94s-cM
+  - image: https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png
     text: It look like this
 actions: []
 forms: {}
